@@ -42,9 +42,13 @@ This project is containerized for easy deployment and demonstrates production-re
 ```bash
 git clone https://github.com/YOUR-USERNAME/django-notes-app.git
 cd django-notes-app
+```
 
 ### 2. Build the app through the image
+```bash
 docker build -t notes-app .
-
+```
 ### 3. Run the Containers
+```bash
 docker-compose up --build
+```
