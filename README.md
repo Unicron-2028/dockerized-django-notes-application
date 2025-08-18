@@ -28,9 +28,6 @@ This project is containerized for easy deployment and demonstrates production-re
 
 ## 📸 Screenshots
 
-### Login Page
-![Login Page](assets/screenshots/login.png)
-
 ### Notes Dashboard
 ![Dashboard](assets/screenshots/dashboard.png)
 
@@ -52,3 +49,4 @@ docker build -t notes-app .
 ```bash
 docker-compose up --build
 ```
+
