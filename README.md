@@ -29,7 +29,7 @@ This project is containerized for easy deployment and demonstrates production-re
 ## 📸 Screenshots
 
 ### Notes Dashboard
-![Dashboard](assets/screenshots/dashboard.png)
+![Dashboard](Screenshot32.png)
 
 ---
 
