@@ -24,3 +24,26 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+
+# Django
+*.sqlite3
+*.log
+media/
+staticfiles/
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Docker / MySQL
+mysql-data/

@@ -1,30 +1,45 @@
-# Simple Notes App for TWS Community
-This is a simple notes app built with React and Django.
+# 📝 Django Notes App
 
-## Requirements
-1. Python 3.9
-2. Node.js
-3. React
+A full-stack **Notes Application** built with **Django, MySQL, Docker, and Nginx**.  
+This project is containerized for easy deployment and demonstrates production-ready setup with reverse proxy and database integration.  
 
-## Installation
-1. Clone the repository
-```
-git clone https://github.com/LondheShubham153/django-notes-app.git
-```
+> ⚡ Inspired by [YouTube tutorial](link) but extended with Docker, Nginx, and server deployment.
 
-2. Build the app
-```
-docker build -t notes-app .
-```
+---
 
-3. Run the app
-```
-docker run -d -p 8000:8000 notes-app:latest
-```
+## 🚀 Features
+- User authentication (sign up, login, logout)
+- Create, update, and delete notes
+- Django + MySQL backend
+- Dockerized deployment with `docker-compose`
+- Nginx reverse proxy for production
+- CI/CD ready (GitHub Actions workflow included)
 
-## Nginx
+---
 
-Install Nginx reverse proxy to make this application available
+## 🛠️ Tech Stack
+- **Backend**: Django (Python 3.9)
+- **Database**: MySQL
+- **Web Server**: Nginx
+- **Containerization**: Docker & Docker Compose
+- **Deployment**: Ubuntu (AWS EC2)
 
-`sudo apt-get update`
-`sudo apt install nginx`
+---
+
+## 📸 Screenshots
+
+### Login Page
+![Login Page](assets/screenshots/login.png)
+
+### Notes Dashboard
+![Dashboard](assets/screenshots/dashboard.png)
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/YOUR-USERNAME/django-notes-app.git
+cd django-notes-app
+
